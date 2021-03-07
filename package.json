@@ -1,0 +1,31 @@
+{
+  "name": "test-and-tutor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Test-And-Tutor/Test_And_Tutor_API.git"
+  },
+  "author": "Edvardas Lunys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Test-And-Tutor/Test_And_Tutor_API/issues"
+  },
+  "homepage": "https://github.com/Test-And-Tutor/Test_And_Tutor_API#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "pg": "^8.5.1"
+  }
+}
